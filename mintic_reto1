@@ -1,0 +1,12 @@
+public static double calcularCostoAlmacenamiento(boolean refigerado, float valorBase){
+    
+    
+        if (refigerado == true){
+            return valorBase * 0.30 + valorBase ;
+           
+        }else {
+            return valorBase * 0.15 + valorBase;
+        }
+    
+    
+    }
